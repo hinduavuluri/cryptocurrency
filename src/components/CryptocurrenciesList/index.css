@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.bg-container {
+  background-color: #000000;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: roboto;
+  font-size: 50px;
+  color: #00e7ff;
+  font-weight: bold;
+}
+.currency {
+  height: 180px;
+  width: 80vw;
+}
+.currency-details-box {
+  height: 250px;
+  width: 80vw;
+  border-radius: 5px;
+  border-color: #00e7ff;
+  border-width: 1px;
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: #092e33;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text {
+  font-family: roboto;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.list-body {
+  list-style-type: none;
+}
